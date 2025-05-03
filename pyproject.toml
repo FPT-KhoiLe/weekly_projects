@@ -1,0 +1,19 @@
+[build-system]
+requires=["setuptools>=68"] # Must have: Danh sách gói dùng để dựng package.
+build-backend = "setuptools.build_meta" # Must have: Trình biên dịch package, thuộc setuptools
+
+[project]
+name = "weekly-projects" # Must have: Tên PyPI/tên package (chữ thường, số, gạch ngang)
+version = "0.0.1" # Must have: Phiên bản semantic (major.minor.patch). Nếu dùng setuptools‑scm có thể bỏ và để tự sinh.
+description = "Thư viện chứa clean code các mạng neuron network cho AI weekly projects"
+requires-python = ">=3.11"
+authors = [
+    {name = "Khoi Le", email = "khoile54642005@gmail.com"}
+]
+
+# Optional
+#dependencies = [
+#    "torch>=2.3",
+#    "torchvision",
+#    "numpy<2"
+#]
