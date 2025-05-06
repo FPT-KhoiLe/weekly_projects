@@ -18,4 +18,3 @@ def get_loaders(batch_size: int = 64, root: str = DEFAULT_ROOT, transform=transf
 
     print("MNIST dataset saved in: ", root)
     return train_loader, test_loader
-

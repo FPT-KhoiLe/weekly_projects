@@ -12,8 +12,8 @@ def train(model, train_dtl, test_dtl, criterion, optimizer, epochs: int, device:
     with open(log_path, "w") as f:
         f.write("Training infos:")
         f.write(f"""
-        Criterion: {criterion}, 
-        Optimizer: {optimizer}, 
+        Criterion: {criterion},
+        Optimizer: {optimizer},
         Epochs: {epochs}
         """)
         for epoch in range(epochs):
