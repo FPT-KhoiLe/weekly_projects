@@ -11,6 +11,10 @@ authors = [
     {name = "Khoi Le", email = "khoile54642005@gmail.com"}
 ]
 
+[project.scripts]
+weeky_projects = "weekly_projects.cli:main"
+wp = "weekly_projects.cli:main"
+
 # Optional
 #dependencies = [
 #    "torch>=2.3",
